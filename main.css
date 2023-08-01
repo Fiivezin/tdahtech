@@ -1,0 +1,178 @@
+/* Estilos CSS */
+body {
+    background: rgb(0, 0, 0);
+    font-family: 'Kanit', sans-serif;
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgb(112,112,112);
+background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgba(0,0,0,1) 19%);
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.container {
+    color: #ffffff;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.ebook-cover {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.ebook-cover img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.presentation-section {
+    padding: 2rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+.cta-section {
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.cta-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cta-section p {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+.buy-button {
+    padding: 1rem 2rem;
+    background-color: #1E90FF;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #1874CD;
+}
+
+.features {
+    margin-bottom: 2rem;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.feature-icon {
+    flex: 0 0 50px;
+    margin-right: 1rem;
+}
+
+
+.testimonials {
+    margin-bottom: 2rem;
+}
+
+.testimonial {
+    padding: 1rem;
+    background-color: #fff;
+    border-left: 5px solid #1E90FF;
+    margin-bottom: 1rem;
+}
+
+.testimonial p {
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Estilos para o vídeo */
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.video-wrapper video {
+    border-radius: 10px; /* Adiciona bordas redondas */
+    border: 2px solid #FF0000; /* Adiciona borda vermelha */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.ebook-cover img {
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+.buy-button {
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007BFF; /* Cor azul do botão */
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Estilos para o botão de compra com pulsação */
+.pulsing-button {
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
